@@ -49,5 +49,5 @@ parts:
   awsmp:
     plugin: python
     source: .
-    stage-packages:
-      - python3-poetry
+    stage-snaps:
+      - astral-uv
